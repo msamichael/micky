@@ -19,7 +19,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 2px solid black;
   
 }
 body {
@@ -362,6 +361,8 @@ i {
 .project-details{
   border-radius: 0 0 10px 10px;
 }
+
+
 
 }
 
