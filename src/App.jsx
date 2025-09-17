@@ -4,10 +4,10 @@ import Hero from './sections/Hero';
 import Skill from './sections/Skill';
 import Projects from './sections/Projects';
 import Footer from './sections/Footer';
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar/>
       <main>
 
@@ -17,7 +17,7 @@ const App = () => {
       </main>
       <Footer/>
       <Analytics/>
-      </div>
+      </>
   )
 }
 
