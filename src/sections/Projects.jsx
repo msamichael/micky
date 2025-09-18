@@ -39,7 +39,7 @@ const Projects = () => {
         <ProjectCard
           projectName={"Weather App"}
           projectImage={weather}
-          projectLink={"https://weather-hue0esauh-msamichaels-projects.vercel.app/"}
+          projectLink={"https://weather-app-blu.vercel.app/"}
           projectGithub={"https://github.com/msamichael/weather-app"}
         />
       </div>
