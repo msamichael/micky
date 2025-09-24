@@ -11,10 +11,6 @@ const Skill = () => {
           skillName={"JavaScript"}
         />
         <SkillCard
-          skillIcon={"devicon-typescript-plain colored"}
-          skillName={"TypeScript"}
-        />
-        <SkillCard
           skillIcon={"devicon-dart-plain colored"}
           skillName={"Dart"}
         />
@@ -33,6 +29,10 @@ const Skill = () => {
         <SkillCard
           skillIcon={"devicon-react-plain colored"}
           skillName={"React"}
+        />
+        <SkillCard
+          skillIcon={"devicon-typescript-plain colored"}
+          skillName={"TypeScript"}
         />
         <SkillCard
           skillIcon={"devicon-tailwindcss-plain colored"}

@@ -12,23 +12,27 @@ const Hero = () => {
 
         <img src={micky} alt="Michael Anifowose" />
       </div>
+
+      <div className="about">
+
       <p>
         Hi, I’m Michael. I'm a frontend developer who enjoys building clean,
         functional websites and apps.
       </p>
       <p>
         I specialize in creating modern, intuitive interfaces that prioritize
-        usability and enhance the overall user experience.  I’m always learning and trying to improve, whether it’s
-      picking up a new framework or refining my design skills.
+        usability and enhance the overall user experience.
       </p>
       <p>
-
-       I care about writing code that’s organized and maintainable, and I enjoy solving
-      problems through thoughtful design.
+        I’m always learning and trying to improve, whether it’s picking up a new
+        framework or refining my design skills.
       </p>
       <p>
-
+        I care about writing code that’s organized and maintainable, and I enjoy
+        solving problems through thoughtful design.
       </p>
+      </div>
+     
     </section>
   );
 };

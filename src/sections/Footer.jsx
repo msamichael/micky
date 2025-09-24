@@ -4,7 +4,7 @@ import { FiMail } from "react-icons/fi";
 const Footer = () => {
   return (
     <footer className="footer">
-      <h3>© Michael Anifowose 2025</h3>
+      <h4>© Michael Anifowose 2025</h4>
 
       <div className="footer-links">
         <a href="mailto:mickeyfowose@gmail.com">

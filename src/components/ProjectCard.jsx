@@ -1,21 +1,52 @@
 import React from "react";
-import { FiGithub, FiExternalLink} from "react-icons/fi";
+import { FiGithub, FiExternalLink } from "react-icons/fi";
 
-const ProjectCard = ({projectName, projectImage,projectLink, projectGithub}) => {
+const ProjectCard = ({
+  projectName,
+  projectImage,
+  projectLink,
+  projectGithub,
+  projectDesc,
+  toolList,
+}) => {
   return (
-      <div className="project-card">
-        <img src={projectImage} alt="movie-app" />
-        <div className="project-details">
-          <h3>{projectName}</h3>
+    <div className="project-card">
+      <div className="project-mainview">
+        <img src={projectImage} alt="project image" />
+        <div className="proj-name-bg">
+          <h3 className="project-name">{projectName}</h3>
+        </div>
+      </div>
+      <div className="project-details">
+        <p className="description">
+          {projectDesc}        </p>
+
+        <div className="project-footer">
+          
+            <ul className="tools">
+           
+              {toolList.map((tool) => (
+                <li className="tool-card"><p>
+                  
+                  {tool}
+                  </p>
+                  </li>
+              ))}
+
+            </ul>
+          
+
           <div className="links">
-            
-            <a href={projectLink} target="_blank" rel="noopener noreferrer"><FiExternalLink size={25}  /></a>
-            <a href={projectGithub} target="_blank" rel="noopener noreferrer"><FiGithub size={25} /></a>
-            
+            {projectLink && <a href={projectLink} target="_blank" rel="noopener noreferrer">
+              <FiExternalLink size={23} color="#1A1A1A"/>
+            </a>}
+            <a href={projectGithub} target="_blank" rel="noopener noreferrer">
+              <FiGithub size={23} color="#1A1A1A"/>
+            </a>
           </div>
         </div>
       </div>
-    
+    </div>
   );
 };
 
