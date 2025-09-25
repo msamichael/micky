@@ -1,3 +1,5 @@
+import michael from "../assets/michael3.png"
+
 
 const Navbar = () => {
   
@@ -19,6 +21,10 @@ const Navbar = () => {
             <a href="#project">Project</a>
           </li>
         </ul>
+
+        <img src={michael} alt="michael anifowose" />
+
+
 
       </nav>
     
