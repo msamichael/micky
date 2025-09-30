@@ -19,7 +19,7 @@ const Projects = () => {
           projectLink={"https://movie-app-view.vercel.app/"}
           projectGithub={"https://github.com/msamichael/movie-app"}
           projectDesc={'A responsive React web app for browsing and discovering movies.'}
-          toolList={['React', 'JavaScript', 'Tailwind CSS, Firebase']}
+          toolList={['React', 'JavaScript', 'Tailwind CSS', 'Firebase']}
           />
         <ProjectCard
           projectName={"MyTube"}
