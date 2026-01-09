@@ -1,4 +1,5 @@
 import React from "react";
+import trark from "../assets/project/trark.png";
 import movie from "../assets/project/movie app.png";
 import sushi from "../assets/project/sushi website.jpg";
 import todo from "../assets/project/todo app.png";
@@ -14,12 +15,12 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="project-grid">
         <ProjectCard
-          projectName={"Movie App"}
-          projectImage={movie}
-          projectLink={"https://movie-app-view.vercel.app/"}
-          projectGithub={"https://github.com/msamichael/movie-app"}
-          projectDesc={'A responsive React web app for browsing and discovering movies.'}
-          toolList={['React', 'JavaScript', 'Tailwind CSS', 'Firebase']}
+          projectName={"Trark"}
+          projectImage={trark}
+          projectLink={"https://trarkapp.vercel.app/"}
+          projectGithub={"https://github.com/msamichael/trark"}
+          projectDesc={'Trark is modern, responsive web application for tracking upcoming movies, TV series, and anime.'}
+          toolList={['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Redux']}
           />
         <ProjectCard
           projectName={"MyTube"}
@@ -28,6 +29,14 @@ const Projects = () => {
           projectGithub={"https://github.com/msamichael/mytube"}
           projectDesc={'A YouTube-style video streaming clone built with React + Vite.'}
           toolList={['React','JavaScript', 'Material UI']}
+          />
+        <ProjectCard
+          projectName={"Movie App"}
+          projectImage={movie}
+          projectLink={"https://movie-app-view.vercel.app/"}
+          projectGithub={"https://github.com/msamichael/movie-app"}
+          projectDesc={'A responsive React web app for browsing and discovering movies.'}
+          toolList={['React', 'JavaScript', 'Tailwind CSS', 'Firebase']}
           />
         <ProjectCard
           projectName={"Restaurant Reservation"}
