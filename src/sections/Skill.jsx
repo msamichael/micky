@@ -31,6 +31,10 @@ const Skill = () => {
           skillName={"React"}
         />
         <SkillCard
+          skillIcon={"devicon-nextjs-plain "}
+          skillName={"Next js"}
+        />
+        <SkillCard
           skillIcon={"devicon-typescript-plain colored"}
           skillName={"TypeScript"}
         />
@@ -54,6 +58,7 @@ const Skill = () => {
           skillIcon={"devicon-github-original"}
           skillName={"Github"}
         />
+        
       </div>
     </div>
   );
