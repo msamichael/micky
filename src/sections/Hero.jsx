@@ -1,6 +1,4 @@
 import React from "react";
-// import micky from "../assets/micke1.png";
-
 const Hero = () => {
   return (
     <section className="home" id="home">
@@ -11,20 +9,19 @@ const Hero = () => {
         </div>
         <div className="about">
           <p>
-            Hi, I’m Michael. I'm a <span> frontend developer</span> who enjoys
-            building clean, functional websites and apps.
+            Hi, I’m Michael. I'm a <span> frontend developer</span> who enjoys turning ideas
+            into clean, functional websites and apps.
           </p>
           <p>
-            I specialize in creating modern, intuitive interfaces that
-            prioritize usability and enhance the overall user experience.
+            I like building modern, responsive interfaces that
+            feel intuitive and easy to use.
+            </p>
+          <p>
+            I’m always learning and improving, whether it’s picking up a
+            new framework or thinking more deeply about how small details affect the overall product.
           </p>
           <p>
-            I’m always learning and trying to improve, whether it’s picking up a
-            new framework or refining my design skills.
-          </p>
-          <p>
-            I care about writing code that’s organized and maintainable, and I
-            enjoy solving problems through thoughtful design.
+            I care about writing clear, maintainable code and enjoy solving different kind of problems.
           </p>
         </div>
 

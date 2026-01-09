@@ -1,5 +1,5 @@
 :root {
-  font-family: "Inter", sans-serif;
+  font-family: "MyFont", system-ui, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -19,6 +19,13 @@
   display: none;
 }
 
+@font-face {
+  font-family: 'MyFont';
+  src: url('assets/Aeonik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+ }
+
 * {
   margin: 0;
   padding: 0;
@@ -26,10 +33,14 @@
 }
 
 body {
-  background-color: #ffffff;
+
   width: 100vw;
   color: black;
   overflow-x: hidden;
+  background-color: #f5f5f8;
+  /* opacity: 0.4; */
+  /* background-image: radial-gradient(#000000 0.55px, #f5f5f8 0.55px); */
+  background-size: 11px 11px;
 }
 
 main {
@@ -45,7 +56,7 @@ main {
 h1,
 h2,
 h3 {
-  font-family: "Manrope", sans-serif;
+  font-family: "MyFont", sans-serif;
 }
 
 a {
@@ -60,12 +71,13 @@ a:hover {
 nav {
   display: flex;
   align-items: center;
-  background-color: #ffffff;
+  background-color: #f5f5f8;
   position: sticky;
   z-index: 99;
   top: 0;
   height: 3rem;
   padding: 2rem 3rem 2rem 3rem;
+  font-weight: 500;
 }
 
 nav h2 {
@@ -139,10 +151,8 @@ nav img {
   
   margin-bottom: 30px;
   padding: 19px 29px;
-
-  background-image: linear-gradient(rgba(248, 71, 14, 0.1), rgba(200, 200, 200, 0.4)),
-    url("https://lh3.googleusercontent.com/aida-public/AB6AXuB2StgT9JC9n62KLZ7c1YISjjapYY2GddJ83esOGJSh4aHFlTtkNZ7D-m9PMcPce6dPN3LZvjmKtNl7BJCoEW8w1wM08MRkNXYN_i6fUcTUClBwYZ5X6a8yA6PYKXo6Xattj4yw6h6IXVP-kqkaFDEVhE35F-wlFS855NGHqL0uZqEapIBBsc4sivPFEh8Hb0Jk1Ko7rn-TWOkw0TizcEegdDs1GgAR-WYNntwxS9geCIy3b1aQ4565dZHizal5zSOphT37YErKFNs3");
-
+background-image: url('assets/dddepth-343.jpg');
+opacity: 0.9;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
