@@ -19,7 +19,7 @@ const Projects = () => {
           projectImage={trark}
           projectLink={"https://trarkapp.vercel.app/"}
           projectGithub={"https://github.com/msamichael/trark"}
-          projectDesc={'Trark is modern, responsive web application for tracking upcoming movies, TV series, and anime.'}
+          projectDesc={'Trark is a modern, responsive web application for tracking upcoming movies, TV series, and anime.'}
           toolList={['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Redux', 'Shadcn']}
           />
         <ProjectCard
