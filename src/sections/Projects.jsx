@@ -23,7 +23,7 @@ const Projects = () => {
           toolList={['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Redux', 'Shadcn']}
           />
         <ProjectCard
-          projectName={"MyTube"}
+          projectName={"YouTube Clone"}
           projectImage={mytube}
           projectLink={"https://mytube-doyf.vercel.app/"}
           projectGithub={"https://github.com/msamichael/mytube"}
