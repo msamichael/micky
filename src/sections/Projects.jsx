@@ -2,7 +2,6 @@ import React from "react";
 import trark from "../assets/project/trark.png";
 import movie from "../assets/project/movie app.png";
 import sushi from "../assets/project/sushi website.jpg";
-import todo from "../assets/project/todo app.png";
 import weather from "../assets/project/weather app.png";
 import mytube from "../assets/project/mytube.png"
 import restautant from "../assets/project/restaurant.png";
@@ -53,14 +52,7 @@ const Projects = () => {
           projectDesc={'A responsive landing page template for a sushi restaurant.'}
           toolList={['HTML', 'CSS', 'JavaScript']}
           />
-        <ProjectCard
-          projectName={"Todo app"}
-          projectLink={"https://todo-app-nine-pi-59.vercel.app/"}
-          projectImage={todo}
-          projectGithub={"https://github.com/msamichael/todo-app"}
-          projectDesc={'A simple todo list app for managing tasks.'}
-          toolList={['React', 'JavaScript', 'Tailwind CSS']}
-          />
+       
         <ProjectCard
           projectName={"Weather App"}
           projectImage={weather}
