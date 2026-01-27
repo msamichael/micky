@@ -29,7 +29,6 @@ const Projects = () => {
           projectGithub={"https://github.com/msamichael/mytube"}
           projectDesc={'A YouTube-style video streaming clone built with React + Vite.'}
           toolList={['React','JavaScript', 'Material UI']}
-          ongoing={false}
           />
         <ProjectCard
           projectName={"Movie App"}

@@ -32,7 +32,7 @@ const Skill = () => {
         />
         <SkillCard
           skillIcon={"devicon-nextjs-plain "}
-          skillName={"Next js"}
+          skillName={"Next.js"}
         />
         <SkillCard
           skillIcon={"devicon-typescript-plain colored"}
@@ -58,7 +58,26 @@ const Skill = () => {
           skillIcon={"devicon-github-original"}
           skillName={"Github"}
         />
-        
+        <SkillCard
+        skillIcon={"devicon-express-original"}
+        skillName={'Express js'}
+        />
+        <SkillCard
+        skillIcon={"devicon-nodejs-plain-wordmark colored"}
+        skillName={'Node js'}
+        />
+        <SkillCard
+        skillIcon={"devicon-npm-original-wordmark colored"}
+        skillName={'npm'}
+        />
+        <SkillCard
+        skillIcon={"devicon-prisma-original colored"}
+        skillName={'prisma'}
+        />
+        <SkillCard
+        skillIcon={"devicon-postgresql-plain-wordmark colored"}
+        skillName={'postgre sql'}
+        />
       </div>
     </div>
   );
