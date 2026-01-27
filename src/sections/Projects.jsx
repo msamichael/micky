@@ -20,7 +20,7 @@ const Projects = () => {
           projectGithub={"https://github.com/msamichael/trark"}
           projectDesc={'Trark is a modern, responsive web application for tracking upcoming movies, TV series, and anime.'}
           toolList={['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Redux', 'Shadcn']}
-          ongoing={true}
+          inProgress={true}
           />
         <ProjectCard
           projectName={"YouTube Clone"}

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import michael from "../assets/michael3.png"
+import ThemeToggle from "../components/ThemeToggle";
 
 
 const Navbar = () => {
@@ -14,7 +15,8 @@ const Navbar = () => {
   };
   
   return (
-    
+    <>
+      {isMenuOpen && <div className="menu-overlay" onClick={closeMenu} />}
       <nav>
         <h2>
           micky<span>.</span>co
@@ -35,6 +37,7 @@ const Navbar = () => {
         </ul>
 
         <div className="nav-right">
+          <ThemeToggle />
           <img src={michael} alt="michael anifowose" />
           <button 
             className={`hamburger ${isMenuOpen ? 'active' : ''}`} 
@@ -48,7 +51,7 @@ const Navbar = () => {
         </div>
 
       </nav>
-    
+    </>
   );
 };
 

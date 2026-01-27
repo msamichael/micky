@@ -72,11 +72,11 @@ const Skill = () => {
         />
         <SkillCard
         skillIcon={"devicon-prisma-original colored"}
-        skillName={'prisma'}
+        skillName={'Prisma'}
         />
         <SkillCard
         skillIcon={"devicon-postgresql-plain-wordmark colored"}
-        skillName={'postgre sql'}
+        skillName={'PostgreSQL'}
         />
       </div>
     </div>

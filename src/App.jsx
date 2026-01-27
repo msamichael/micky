@@ -5,10 +5,14 @@ import Skill from './sections/Skill';
 import Projects from './sections/Projects';
 import Certificates from './sections/Certificates';
 import Footer from './sections/Footer';
+import ScrollProgress from './components/ScrollProgress';
+import CustomCursor from './components/CustomCursor';
 import { Analytics } from "@vercel/analytics/react";
 const App = () => {
   return (
     <>
+      <CustomCursor />
+      <ScrollProgress />
       <Navbar/>
       <main>
 

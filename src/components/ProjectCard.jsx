@@ -8,7 +8,7 @@ const ProjectCard = ({
   projectGithub,
   projectDesc,
   toolList,
-  ongoing
+  inProgress
 }) => {
   return (
     <div className="project-card">
@@ -19,7 +19,7 @@ const ProjectCard = ({
         </div>
       </div>
       <div className="project-details">
-        {ongoing && <div className="ongoing"><p >Ongoing</p> </div>}
+        {inProgress && <div className="ongoing"><p >In Progress</p> </div>}
         <p className="description">
           {projectDesc}        </p>
 
