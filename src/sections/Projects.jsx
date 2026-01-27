@@ -20,6 +20,7 @@ const Projects = () => {
           projectGithub={"https://github.com/msamichael/trark"}
           projectDesc={'Trark is a modern, responsive web application for tracking upcoming movies, TV series, and anime.'}
           toolList={['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Redux', 'Shadcn']}
+          ongoing={true}
           />
         <ProjectCard
           projectName={"YouTube Clone"}
@@ -28,6 +29,7 @@ const Projects = () => {
           projectGithub={"https://github.com/msamichael/mytube"}
           projectDesc={'A YouTube-style video streaming clone built with React + Vite.'}
           toolList={['React','JavaScript', 'Material UI']}
+          ongoing={false}
           />
         <ProjectCard
           projectName={"Movie App"}

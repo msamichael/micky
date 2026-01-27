@@ -319,6 +319,16 @@ i {
   flex-direction: column;
 }
 
+.project-details .ongoing {
+  background-color: #b91c1c27;
+  color: #1a1a1a;
+  width: fit-content;
+  padding: 1px 7px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  user-select: none;
+}
+
 .project-details .description {
   font-size: 0.8rem;
   margin-bottom: 14px;
