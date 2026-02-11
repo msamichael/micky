@@ -42,9 +42,11 @@ const ProjectCard = ({
             {projectLink && <a href={projectLink} target="_blank" rel="noopener noreferrer">
               <FiExternalLink size={23} color="#1A1A1A"/>
             </a>}
+           {projectGithub &&
             <a href={projectGithub} target="_blank" rel="noopener noreferrer">
               <FiGithub size={23} color="#1A1A1A"/>
             </a>
+            }
           </div>
         </div>
       </div>

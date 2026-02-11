@@ -5,6 +5,7 @@ import sushi from "../assets/project/sushi website.jpg";
 import weather from "../assets/project/weather app.png";
 import mytube from "../assets/project/mytube.png"
 import restautant from "../assets/project/restaurant.png";
+import braid from "../assets/project/rachaelsbraid.png";
 
 import ProjectCard from "../components/ProjectCard";
 
@@ -21,6 +22,15 @@ const Projects = () => {
           projectDesc={'Trark is a modern, responsive web application for tracking upcoming movies, TV series, and anime.'}
           toolList={['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Redux', 'Shadcn']}
           />
+        <ProjectCard
+          projectName={"Rachaels Braid Website"}
+          projectImage={braid}
+          projectLink={"https://rachaelsbraid.vercel.app/"}
+          projectDesc={'A responsive landing page for a client\'s hair braiding service'}
+          toolList={['Next.js', 'TypeScript', 'Tailwind CSS']}
+          inProgress={true}
+          />
+
         <ProjectCard
           projectName={"YouTube Clone"}
           projectImage={mytube}

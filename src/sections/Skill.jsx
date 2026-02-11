@@ -66,18 +66,14 @@ const Skill = () => {
         skillIcon={"devicon-nodejs-plain-wordmark colored"}
         skillName={'Node js'}
         />
-        <SkillCard
-        skillIcon={"devicon-npm-original-wordmark colored"}
-        skillName={'npm'}
-        />
-        <SkillCard
+        {/* <SkillCard
         skillIcon={"devicon-prisma-original colored"}
         skillName={'Prisma'}
-        />
-        <SkillCard
+        /> */}
+        {/* <SkillCard
         skillIcon={"devicon-postgresql-plain-wordmark colored"}
         skillName={'PostgreSQL'}
-        />
+        /> */}
       </div>
     </div>
   );
