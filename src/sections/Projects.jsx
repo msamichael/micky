@@ -33,6 +33,14 @@ const Projects = () => {
           
           />
 
+<ProjectCard
+  projectName={"Rachaels Braid Website"}
+  projectImage={braid}
+  projectLink={"https://rachaelsbraid.vercel.app/"}
+  projectDesc={'A responsive landing page for a client\'s hair braiding service'}
+  toolList={['Next.js', 'TypeScript', 'Tailwind CSS']}
+
+  />
         <ProjectCard
           projectName={"YouTube Clone"}
           projectImage={mytube}
@@ -40,14 +48,6 @@ const Projects = () => {
           projectGithub={"https://github.com/msamichael/mytube"}
           projectDesc={'A YouTube-style video streaming clone built with React + Vite.'}
           toolList={['React','JavaScript', 'Material UI']}
-          />
-        <ProjectCard
-          projectName={"Rachaels Braid Website"}
-          projectImage={braid}
-          projectLink={"https://rachaelsbraid.vercel.app/"}
-          projectDesc={'A responsive landing page for a client\'s hair braiding service'}
-          toolList={['Next.js', 'TypeScript', 'Tailwind CSS']}
-        
           />
         <ProjectCard
           projectName={"Movie App"}
@@ -79,7 +79,7 @@ const Projects = () => {
           projectLink={"https://weather-app-blu.vercel.app/"}
           projectGithub={"https://github.com/msamichael/weather-app"}
           projectDesc={'A weather information app (frontend) that fetches and displays weather data for user-selected locations.'}
-          toolList={['React' , 'JavaScript', 'Tailwind CSS']}
+          toolList={['React' , 'JavaScript', 'Tailwind CSS ']}
         />
       </div>
     </div>
