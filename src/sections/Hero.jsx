@@ -30,21 +30,13 @@ const Hero = () => {
           <h2 className="gradient-text">Anifowose</h2>
         </div>
         <div className="about">
+          <p style={{fontSize:'22px'}}> 
+Frontend developer.</p>
+<p>
+ I build fast, thoughtful interfaces </p>
+<p>Right now I'm focused on the intersection of web development and AI</p>
           <p>
-            Hi, I'm Michael. I'm a <span> frontend developer</span> who enjoys turning ideas
-            into clean, functional websites and apps.
-          </p>
-          <p>
-            I like building modern, responsive interfaces that
-            feel intuitive and easy to use.
-            </p>
-          <p>
-            I'm always learning and improving, whether it's picking up a
-            new framework or thinking more deeply about how small details affect the overall product.
-          </p>
-          <p>
-            I care about writing clear, maintainable code and enjoy solving different kind of problems.
-          </p>
+            I care about the craft.. clean components, good architecture, and products that actually work.</p>
         </div>
         <button className="cta-button" onClick={scrollToProjects}>
           View My Work
