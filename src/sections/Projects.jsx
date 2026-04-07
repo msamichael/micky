@@ -6,6 +6,7 @@ import weather from "../assets/project/weather app.png";
 import mytube from "../assets/project/mytube.png"
 import restautant from "../assets/project/restaurant.png";
 import braid from "../assets/project/rachaelsbraid.png";
+import resumeAi from "../assets/project/resume-ai.png";
 
 import ProjectCard from "../components/ProjectCard";
 
@@ -23,12 +24,13 @@ const Projects = () => {
           toolList={['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Redux', 'Shadcn']}
           />
         <ProjectCard
-          projectName={"Rachaels Braid Website"}
-          projectImage={braid}
-          projectLink={"https://rachaelsbraid.vercel.app/"}
-          projectDesc={'A responsive landing page for a client\'s hair braiding service'}
-          toolList={['Next.js', 'TypeScript', 'Tailwind CSS']}
-          inProgress={true}
+          projectName={"Resume AI"}
+          projectImage={resumeAi}
+          projectLink={"https://theresume-ai.vercel.app/"}
+          projectGithub={"https://github.com/msamichael/resume-ai"}
+          projectDesc={'Resume AI is a tool that analyzes your resume against a job description and tells you exactly what\'s missing along with rewrites to fix it.'}
+          toolList={['Next.js', 'TypeScript', 'Tailwind CSS', 'Groq API (LLama 3.3)']}
+          
           />
 
         <ProjectCard
@@ -38,6 +40,14 @@ const Projects = () => {
           projectGithub={"https://github.com/msamichael/mytube"}
           projectDesc={'A YouTube-style video streaming clone built with React + Vite.'}
           toolList={['React','JavaScript', 'Material UI']}
+          />
+        <ProjectCard
+          projectName={"Rachaels Braid Website"}
+          projectImage={braid}
+          projectLink={"https://rachaelsbraid.vercel.app/"}
+          projectDesc={'A responsive landing page for a client\'s hair braiding service'}
+          toolList={['Next.js', 'TypeScript', 'Tailwind CSS']}
+        
           />
         <ProjectCard
           projectName={"Movie App"}
