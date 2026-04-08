@@ -36,7 +36,7 @@ Frontend developer.</p>
  I build fast, thoughtful interfaces </p>
 <p>Right now I'm focused on the intersection of web development and AI</p>
           <p>
-            I care about the craft.. clean components, good architecture, and products that actually work.</p>
+            I care about the craft - clean components, good architecture, and products that actually work.</p>
         </div>
         <button className="cta-button" onClick={scrollToProjects}>
           View My Work
