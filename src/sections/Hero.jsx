@@ -31,13 +31,14 @@ const Hero = () => {
         </div>
         <div className="about">
           <p style={{fontSize:'22px'}}> 
-Frontend developer.</p>
+Frontend Developer.</p>
+
 <p>
- I build fast, thoughtful interfaces </p>
-<p>Right now I'm focused on the intersection of web development and AI</p>
+ I ship production Next.js apps with React, TypeScript, and AI integrations.
+ </p>
           <p>
-            I care about the craft - clean components, good architecture, and products that actually work.</p>
-        </div>
+          I care about accessible UI, clean architecture, and shipping features users actually use. </p>
+</div>
         <button className="cta-button" onClick={scrollToProjects}>
           View My Work
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

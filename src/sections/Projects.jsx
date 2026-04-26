@@ -41,46 +41,14 @@ const Projects = () => {
   toolList={['Next.js', 'TypeScript', 'Tailwind CSS']}
 
   />
-        <ProjectCard
-          projectName={"YouTube Clone"}
-          projectImage={mytube}
-          projectLink={"https://mytube-doyf.vercel.app/"}
-          projectGithub={"https://github.com/msamichael/mytube"}
-          projectDesc={'A YouTube-style video streaming clone built with React + Vite.'}
-          toolList={['React','JavaScript', 'Material UI']}
-          />
-        <ProjectCard
-          projectName={"Movie App"}
-          projectImage={movie}
-          projectLink={"https://movie-app-view.vercel.app/"}
-          projectGithub={"https://github.com/msamichael/movie-app"}
-          projectDesc={'A responsive React web app for browsing and discovering movies.'}
-          toolList={['React', 'JavaScript', 'Tailwind CSS', 'Firebase']}
-          />
-        <ProjectCard
+            <ProjectCard
           projectName={"Restaurant Reservation"}
           projectImage={restautant}
           projectGithub={"https://github.com/msamichael/restaurant-reservation-app"}
           projectDesc={'A full-stack Flutter application that handles restaurant bookings, availability checks, and a user-friendly reservation interface.'}
           toolList={['Flutter', 'Dart', 'Supabase']}
           />
-        <ProjectCard
-          projectName={"Sushi Landing Page"}
-          projectImage={sushi}
-          projectLink={"https://sushi-landing-page-chi.vercel.app/"}
-          projectGithub={"https://github.com/msamichael/sushi-landing-page"}
-          projectDesc={'A responsive landing page template for a sushi restaurant.'}
-          toolList={['HTML', 'CSS', 'JavaScript']}
-          />
-       
-        <ProjectCard
-          projectName={"Weather App"}
-          projectImage={weather}
-          projectLink={"https://weather-app-blu.vercel.app/"}
-          projectGithub={"https://github.com/msamichael/weather-app"}
-          projectDesc={'A weather information app (frontend) that fetches and displays weather data for user-selected locations.'}
-          toolList={['React' , 'JavaScript', 'Tailwind CSS ']}
-        />
+
       </div>
     </div>
   );
